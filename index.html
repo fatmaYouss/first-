@@ -10,24 +10,25 @@
             background-attachment: fixed;
             }
 
-            .rr{background-color: rgb(13, 4, 94);padding: 2%;margin: -1%;text-align: center;color: lavender;}
+            .rr{background-color: rgb(13, 4, 94);padding: 1%;margin: -1%;
+            text-align: center;color: lavender; font-size: smaller;position: fixed;top:0%;right: 0%;left: 0%;}
 
-            span{padding: 15px;margin: 5px; }
-            span:hover{background-color: rgb(218, 178, 198);}
+            span{padding: 15px;margin: 0.5px;cursor: pointer; }
+            span:hover{background-color: rgb(218, 178, 198);border-radius: 20px;}
 
             .yy
             {color: rgb(79, 79, 252);
             background-image: url('images/o-doctors-in-canada-facebook-1520411729-780x405.jpg');background-repeat: no-repeat;height: 600px;
-            margin: 0%;padding: 0%;}
+            margin: 0%;padding: 0%;top: 40%;}
 
             div p
-            {color: rgb(2, 21, 24);
+            {color: rgb(2, 58, 50);
             }
 
             table,tr,th,td
-            {border: 2px double rgb(25, 77, 4);
+            {border: 2px double rgb(41, 138, 3);
             width: 900px;
-            background-color: rgb(218, 178, 198);}
+            background-color:rgba(242, 242, 247, 0.5)}
 
             label,input{
                 display: block;padding: 10px;
@@ -35,12 +36,15 @@
 
             }
             legend
-            {background-color: rgb(247, 180, 173);
+            {background-color: rgb(250, 225, 223);
             padding: 10px ; border :2px double rgb(0, 217, 255);
+            border-radius: 20px;
             }
 
             input
             {background-color: rgb(231, 193, 166);color: sienna;
+            border-radius: 25px;
+            border:1px solid aqua;
             }
             .dd{
                 display: inline-block;
@@ -50,48 +54,109 @@
             .pp::first-letter
                 {font-size: 50px;
                 font-weight: 10px;
-                color:rgb(47, 7, 121);
-                border-radius:15px;
-                background-color:lightpink;
+                color:rgb(60, 29, 117);
+                border-radius:5px;
+                background-color:rgb(193, 225, 255);
                 }
 
-            .ll{background-color: rgba(70, 104, 153, 0.5);
+            li{background-color: rgba(70, 104, 153, 0.5);
                 margin: 5px;
-            
-            
             }
+            thead th{ 
+                background-color: rgb(4, 125, 129);}
+
+            i{ 
+                color:rgba(4, 5, 80, 0.5);cursor: pointer;}
+
+            .uu {
+                color: rgb(146, 231, 199);font-size: xx-large;}
+
+            .ee {
+                text-align: right;}
+
+            a:hover i {
+                background-color: rgb(185, 179, 180);border-radius: 2px;
+                }
+            .ss {
+                display: none;}
+
+            .dd:hover .ss {
+                display: block;}
+
+            .hh{ 
+                display: none;color: rgb(27, 172, 8);text-align:center;}
+                
+            .ww:hover .hh {
+                display: block;
+                }
+            .f{
+                font-size: larger;font-weight: 600;}
+
+            .f,.w{
+                display:inline-block;margin: 2px;
+                }
+            .w{
+                font-size: smaller;font-weight: 300;
+                }
+            .k
+            {display: none;}
+
+            .z:hover .k{ 
+                display: block;}
 
 
         </style>
-        <link rel="stylesh eet"href="">
+        <link rel="stylesheet"href="css/all.css">
         
 
     </head>
     <body>
         <div class="rr">
-            <span >Home</span>
-            <span>Health</span>
-            <span>Contact us</span>
-            <span>Team Work</span>
-            <span>Sign up</span>
-            <span>Time working</span>
+            
+            <span > <i style="color: rgb(230, 250, 247);font-size: x-large;margin: 0.5%;" class="fas fa-home"></i>Home</span>
+            <span><i style="color: rgb(230, 250, 247);font-size: x-large;margin: 0.5%;" class="fas fa-heartbeat"></i>Health</span>
+            <span><i style="color:  rgb(230, 250, 247) ;font-size: x-large;margin: 0.5%;" class="fas fa-phone-alt"></i>Contact us</span>
+            <span> <i style="color: rgb(230, 250, 247);font-size: x-large;margin: 0.5%;" class="fas fa-users"></i>Team Work</span>
+            <span><i style="color: rgb(230, 250, 247);font-size: x-large;margin: 0.5%;" class="fas fa-sign-in-alt"></i>Sign up</span>
+            <span><i style="color: rgb(230, 250, 247);font-size: x-large;margin: 0.5%;" class="far fa-clock"></i>Time working</span>
+            
+        <div class="ee">
+            <div style="text-align: left;"> <input style=" background: lightblue;position: fixed;left: 0%;top:1%;width: 10%;" type="search"value="search"placeholder="search"> </div>
+            <a href="https://www.facebook.com"><i style="position: fixed;right: 5%;top:1%;font-size: x-large;color: mintcream;margin: 5px;text-align:right;" class="fab fa-facebook"></i></a>
+            <a href="https://www.massenger.com"><i style="position: fixed;right: 2%;top:1%;font-size: x-large;color: mintcream;margin: 5px;text-align:right;"  class="fab fa-facebook-messenger"></i></a>
+            <i style="position: fixed;right: 0%;top:1%;font-size: x-large;color: rgb(240, 255, 247);margin: 5px;text-align:right;" class="fas fa-ellipsis-v"></i>
+        </div>
+        
         </div>
         <div class="yy">
-            <em><h1>Hospital</h1></em>
-            <div style="background-color: rgba(79, 79, 223,.5);padding: 20px;margin: 150px;width: 500px;font-size: 20px;">
+            <br>
+           <center>
+             <em><h1><i style="color: rgb(28, 105, 206);font-size:larger ; margin: 0.5%;" class="fas fa-hospital-symbol"></i> <p  style="color: rgb(126, 126, 235);" class="f">H</p><p style="color: rgb(219, 208, 161);" class="w">o</p>
+            <p style="color: cyan;" class="f">s</p><p style="color: rgb(150, 38, 160);" class="w">p</p>
+            <p style="color: rgb(33, 207, 71);" class="f">i</p><p style="color: lightpink;" class="w">t</p><p style="color: rgb(29, 216, 200);" class="f">a</p><p style="color: rgb(236, 111, 153);" class="w">l</p> </h1></em></center>
+            <div class="ww"  style="background-color: rgb(152, 185, 228); position:fixed;left: -1%; top:13%; padding: 2%; border-radius: 5px; height: 2px;"><em><p  class="hh">About</p></div><em>
+            <div  class="ww"  style="background-color:rgb(184, 135, 240); position:fixed;left: -1%; padding: 2%;top:21.5%; border-radius: 5px; height: 2px;"><em><p class="hh">Ask Us</p></div><em>
+            <div  class="ww"  style="background-color:rgb(160, 159, 224); position:fixed;left: -1%; top:32%; padding:  2%; border-radius: 5px; height: 2px;"><em><p class="hh">Information</p></div><em>
+            <div  class="ww"  style="background-color: rgb(231, 180, 199); position:fixed;left: -1%; top:40.5%; padding: 2%; border-radius: 5px; height: 2px;"><em><p class="hh">contact</p></div><em>
+
+            <p><i style="color: rgb(98, 98, 190);font-size: xx-large;position: fixed;text-align: right;right: 1%;top:80%;cursor: pointer;" class="fab fa-twitter"></i></p>
+            <a href="https://www.whatsapp.com"><i style="font-size:xx-large;color: rgb(6, 196, 101);margin: 5px;position: fixed;text-align: right;right: 1%;top:85%;cursor: pointer;"  class="fab fa-whatsapp"></i></a>
+            <i style="font-size:xx-large;color: rgb(10, 4, 92);margin: 5px;position: fixed;text-align: right;right: 1%;top:15%;" class="fas fa-bell"></i>
+           
+            <div class="z" style="background-color: rgba(79, 79, 223,.5);padding: 20px;margin: 100px;width: 500px;font-size: 20px;position:absolute;top: 10%;right: 7%;border-radius: 10px;">
                 <p class="pp"> Hospital, an institution that is built, staffed, and equipped for the diagnosis of disease;</p>
 
                 <p> for the treatment;both medical and surgical, </p>
-                <p>
+                <p class="k">
                     of the sick and the injured; and for their housing during this process.
                 </p>
-                <p>
+                <p class="k">
                     The modern hospital also often serves as a centre for investigation and for teaching.
                 </p>
             </div>
 
         </div>
-        <div style="text-transform: capitalize;color: rgb(201, 57, 57);background-color: rgba(118, 250, 206, 0.5);padding:  2%;margin: -0.3%;">
+        <div style="text-transform: capitalize;color: rgb(30, 5, 119);background-color: rgba(118, 250, 206, 0.5);padding:  2%;margin: -0.3%;">
             <u><h3>what is a hospital ?</h3></u>
             <p>
                 the hospital is that treatment institution responsible for providing health care to patients through specialized medical  staff and medical devices,
@@ -116,36 +181,182 @@
             <img src="images/web_hybrid-or_salle-doperation-hybride.jpg"width="500px"height="300px">
         </div>
         <hr>
-        <div style="background-color: rgba(134, 27, 134,0.3);">
-                <div style="background-color: rgba(238, 158, 170,0.5);">
-                    <ul style="font-size: x-large;font-weight: 400;color: rgb(8, 18, 110);list-style-type:disc;">
-                        Medical Specialties
+        <div style="background-color: rgba(115, 236, 206, 0.3);">
+                <div style="background-color: rgba(231, 250, 247, 0.5);">
+                    <ul style="font-size: x-large;font-weight: 400;color: rgb(4, 23, 187);list-style-type:none;">
+                        <i style="color: rgb(84, 84, 196);font-size: large;" class="fas fa-stethoscope"></i>Medical Specialties:-
                         <div class="ll">
-                            <li>Anesthesia</li>
-                            <li>Cardiology / cardiac surgery</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>Anesthesia</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>Cardiology / cardiac surgery</li>
                         </div>
                         <div  class="ll">
-                            <li>Dermatology</li>
-                            <li>Ear,noEse and throat (ENT)</li>
-                            <li>Endocrinology</li>
+                             <li><i class="fas fa-arrow-circle-right"></i>Dermatology</li>
+                              <li><i class="fas fa-arrow-circle-right"></i>Ear,nose and throat (ENT)</li>
+                             <li><i class="fas fa-arrow-circle-right"></i>Endocrinology</li>
                         </div>
                         <div  class="ll">
-                            <li>General surgery</li>
-                            <li>Hematology</li>
-                            <li>Hepatology</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>General surgery</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>Hematology</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>Hepatology</li>
                         </div>
                         <div  class="ll">
-                            <li>Internal Medicine</li>
-                            <li>Oncology</li>
+                            <li><i class="fas fa-arrow-circle-right"></i>Internal Medicine</li>
+                             <li><i class="fas fa-arrow-circle-right"></i>Oncology</li>
                         </div>
                         <div  class="ll">
-                            <li>Ophthalmology</li>
-                            <li>pediatrics</li>
+                              <li><i class="fas fa-arrow-circle-right"></i>Ophthalmology</li>
+                             <li><i class="fas fa-arrow-circle-right"></i>pediatrics</li>
                         </div>
                     </ul>
                 </div>
+                <hr>
+                <div>
+                    <center><h1><i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-stethoscope"></i> Department and Specialties</h1></center>
+                    <p>The hospital is equipped with the latest medical devices,and the hospital includes ateam of distinguished doctors in the medical field 
+                        ,in addition to the highly skilled and experienced nursing staff ,and the hospital is managed by an automated system specialized in the medical field.
+                    </p>
+                    <u><h3>
+                        <i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-file-medical-alt"></i> Department Of General Surgery
+                    </h3></u>
+                    <img style="width: 40%;height: 30%;" src="images/general-surgery-768x512.jpg"title="surgery"><br>
+                    <p>The department of neurology offers a number of treatments and techniques for treating tumors in the head
+                        </p><p> ,spine ,skull,and cartilage surgeries of the spine</p>
+                        <hr style="color: rgb(60, 60, 196);">
+                    <h3>
+                        <i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-notes-medical"></i> Department Of Obstetrics and Gynecology
+                    </h3>
+                    <img style="width: 40%;height: 30%;"src="images/obstetrics_gynecology_p3-768x432.jpg"><br>
+                    The Obstetrics and Gynecology Section is equipped with the best medical techniques <br>
+                    ensuring the highest care for any medical emergencies <br>
+                    that may occur during labor or postpartum period.
+                      The section includes also special surgeries rooms. <br>
+                         
+                    </p>
+                    <hr style="color: rgb(58, 58, 197);">
+                    <h3> <i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-briefcase-medical"></i>The Anesthesiology Department</h3>
+                    <img  style="width: 40%;height: 30%;" src="images/General-Anesthesia3-768x432.jpg"title="Anesthesiology Department"><br>
+                    <p>The Anesthesiology Department The Anesthesiology Department includes operating and recovery rooms.
+                        <br> The department also provides a large number of safe and effective medical services.</p>
+                    
+                    <hr style="color: rgb(37, 37, 202);">
+                    <h3><i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-tooth"></i> The Dental Section</h3>
+                    <img style="width: 40%;height: 30%;" src="images/dental-gal-768x427.jpg"title="Dental Section">
+                    <p>The Dental Section offers the best treatment in coordination between experiences of dental consultants and specialists from various fields,
+                        <br> including oral medicine, orthodontics, dental implants, endodontics, restorative dentistry, periodontology,<br>
+                         oral and maxillofacial surgery, prosthodontics, pedodontics, and esthetic dentistry.</p>
+                    
+                    <hr style="color:rgb(66, 66, 228)">
+                    <h3><i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-bone"></i> The Orthopedic Section</h3>
+                    <img style="width: 40%;height: 30%;" src="images/Orthopedic-Section-768x343.jpg"title="Orthopedic Section">
+                    <p>The Orthopedic Section offers its services through a group of highly qualified Orthopedic consultants
+                        <br> and several specialized clinics that cover the following services:
+                          Traumatology Pediatric orthopedic surgery <br> Arthroscopy Hand surgery Foot surgery Spinal surgery Joint replacement Osteomyelitis</p>
+                    
+                    <hr style="color: rgb(76, 76, 230);">
+                    <h3> <i style="color: rgb(27, 27, 82);font-size: xx-large;" class="fas fa-capsules"></i>OUTPATIENT PHARMACY</h3>
+                    <img style="width: 40%;height: 30%;" src="images/yy.jpg"title="OUTPATIENT PHARMACY">
+                    <p>OUTPATIENT PHARMACY: Outpatient pharmacy dispenses medications to outpatient clinics.
+                        <br>  One of the most important pharmacy objectives is to educate patients and instruct them on 
+                        <br>how to use medications in order to obtain best possible health outcomes.</p>
+                    
+                    <hr style="color: rgb(20, 20, 167);">
+                </div>
+                <center>
+                    <table>
+                        <caption style="color: rgb(25, 6, 148);font-size: larger;">Information About Staff</caption>
+                        <thead>
+                        <tr>
+                            
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Phone</th>
+                            <th>Male or Female</th>
+                            <th>Specialties</th>
+
+                        </tr>
+                        </thead>
+                        <tr>
+                            <td>Ahmed</td>
+                            <td>30</td>
+                            <td>01096427900</td>
+                            <td>male</td>
+                            <td><i style="color: rgb(4, 164, 204);font-size: x-large;" class="fas fa-user-md"></i>Hematology</td>
+                        </tr>
+                        <tr>
+                            <td>Soha</td>
+                            <td>29</td>
+                            <td>01249806420</td>
+                            <td>female</td>
+                            <td><i style="color: rgb(38, 90, 3);font-size: x-large;" class="fas fa-user-md"></i>pediatrics</td>
+                        </tr>
+                        <tr>
+                            <td>Heba</td>
+                            <td>25</td>
+                            <td>01148806420</td>
+                            <td>female</td>
+                            <td><i style="color: rgb(3, 90, 86);font-size: x-large;" class="fas fa-user-md"></i>Oncology</td>
+                        </tr>
+                        <tr>
+                            <td>Soha</td>
+                            <td>29</td>
+                            <td>01074980642</td>
+                            <td>female</td>
+                            <td><i style="color: rgb(216, 91, 32);font-size: x-large;" class="fas fa-user-md"></i>Endocrinology</td>
+                        </tr>
+                        <tr>
+                            <td>Rady</td>
+                            <td>35</td>
+                            <td>01296427900</td>
+                            <td>male</td>
+                            <td><i style="color: rgb(3, 131, 124);font-size: x-large;" class="fas fa-user-md"></i>Anesthesia</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmed</td>
+                            <td>45</td>
+                            <td>01596427900</td>
+                            <td>male</td>
+                            <td><i style="color: rgb(19, 78, 19);font-size: x-large;" class="fas fa-user-md"></i>Hepatology</td>
+                        </tr>
+                </table>
+            </center>
+            <br>
+            <center>
+            <div style="text-align: center;margin: 15px;" >
+                <div class="dd" >
+                    <img src="images/file-20191203-66986-im7o5.jpg"width="200px"height="300px">
+                    <p>Dr/fatma youssf</p>
+                    <p class="ss">Hepatology</p>
+                </div>
+                <div class="dd" >
+                    <img src="images/images (10).jpg"width="200px"height="300px">
+                    <p>Dr/Ahmed yasser</p>
+                    <p class="ss">Anesthesia</p>
+
+                </div>
+                <div class="dd">
+                    <img src="images/images (9).jpg"width="200px"height="300px">
+                    
+                    <p>Dr/Radow Ahmed</p>
+                    <p class="ss" >Ear,nose and throat (ENT)</p>
+                </div>
+                <div class="dd">
+                    <img src="images/2a0e8cb609405d9ca87bc81154b9c443.jpg"width="200px"height="300px">
+                    <p>Dr/Haba saed</p>
+                    <p class="ss" >Dermatology</p>
+                </div>
+                <div class="dd">
+                    <img src="images/images (8).jpg"width="200px"height="300px">
+                    <p>Dr/Yasser Ahmed</p>
+                    <p class="ss">Cardiology / cardiac surgery</p>
+                </div>
+            </div>
+            </center>
+           
+            <hr>
+            <center>
             <table>
-                <caption style="color: rgb(16, 6, 80);font-size: larger;">Information About Staff</caption>
+                <caption style="color: rgb(20, 3, 129);font-size:x-large;">Information About Nursing staff</caption>
+                <thead>
                 <tr>
                     
                     <th>Name</th>
@@ -155,87 +366,58 @@
                     <th>Specialties</th>
 
                 </tr>
+                </thead>
                 <tr>
-                    <td>Ahmed</td>
-                    <td>30</td>
-                    <td>01096427900</td>
+                    <td>Mostafa</td>
+                    <td>25</td>
+                    <td>01196427900</td>
                     <td>male</td>
-                    <td>Hematology</td>
+                    <td>Nurse<i style="color: rgb(5, 97, 128);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
                 <tr>
-                    <td>Soha</td>
+                    <td>soad</td>
                     <td>29</td>
-                    <td>01249806420</td>
+                    <td>01549806420</td>
                     <td>female</td>
-                    <td>pediatrics</td>
+                    <td>Nurse<i style="color: rgb(7, 112, 72);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
                 <tr>
-                    <td>Heba</td>
+                    <td>Hoda</td>
                     <td>25</td>
                     <td>01148806420</td>
                     <td>female</td>
-                    <td>Oncology</td>
+                    <td>Nurse<i style="color: rgb(8, 163, 214);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
                 <tr>
-                    <td>Soha</td>
-                    <td>29</td>
-                    <td>01074980642</td>
+                    <td>Radowa</td>
+                    <td>35</td>
+                    <td>01574980642</td>
                     <td>female</td>
-                    <td>Endocrinology</td>
+                    <td>Nurse<i style="color: rgb(160, 92, 115);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
                 <tr>
-                    <td>Rady</td>
+                    <td>shady</td>
                     <td>35</td>
                     <td>01296427900</td>
                     <td>male</td>
-                    <td>Anesthesia</td>
+                    <td>Nurse<i style="color: rgb(179, 95, 204);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
                 <tr>
                     <td>Ahmed</td>
-                    <td>45</td>
+                    <td>27</td>
                     <td>01596427900</td>
                     <td>male</td>
-                    <td>Hepatology</td>
+                    <td>Nurse<i style="color: rgb(196, 80, 13);font-size: x-large;" class="fas fa-user-nurse"></i></td>
                 </tr>
             </table>
+            </center>
+    
             <br>
             <center>
-            <div style="text-align: center;margin: 15px;" >
-                <div class="dd" >
-                    <img src="images/file-20191203-66986-im7o5.jpg"width="200px"height="300px">
-                    <p>Dr/fatma youssf</p>
-                    <p>Hepatology</p>
-                </div>
-                <div class="dd" >
-                    <img src="images/images (10).jpg"width="200px"height="300px">
-                    <p>Dr/Ahmed yasser</p>
-                    <p>Anesthesia</p>
-
-                </div>
-                <div class="dd">
-                    <img src="images/images (9).jpg"width="200px"height="300px">
-                    
-                    <p>Dr/Radow Ahmed</p>
-                    <p>Ear,nose and throat (ENT)</p>
-                </div>
-                <div class="dd">
-                    <img src="images/2a0e8cb609405d9ca87bc81154b9c443.jpg"width="200px"height="300px">
-                    <p>Dr/Haba saed</p>
-                    <p>Dermatology</p>
-                </div>
-                <div class="dd">
-                    <img src="images/images (8).jpg"width="200px"height="300px">
-                    <p>Dr/Yasser Ahmed</p>
-                    <p>Cardiology / cardiac surgery</p>
-                </div>
-            </div>
-            </center>
-           
-            <hr>
-            <table style="border:3px solid rgb(88, 56, 52);color: teal;">
-                <caption style="color: rgb(58, 18, 3);font-size: xx-large;">Information About some Patients</caption>
+            <table style="border:3px solid rgb(44, 123, 214);color: teal;">
+                <caption style="color: rgb(17, 7, 109);font-size: xx-large;">Information About some Patients</caption>
                 <thead>
-                <tr style="color: purple;">
+                <tr style="color: rgb(115, 147, 235);">
                     
                     <th>Name</th>
                     <th>Age</th>
@@ -295,18 +477,19 @@
                     <td>non-communicable disease</td>
                 </tr>
             </table>
+        </center>
         </div>
         <br><br><br>
         <div>
         </div>
             <div>
                 <h1></h1>
-                <form style="width: 300px;">
+                <form style="width: 400px;border-radius: 5px;">
                     <h4>We are here for you....</h4>
                     
                     <h3> book appointment now</h3>
                     
-                    <fieldset>
+                    <fieldset style="background-color: rgba(1, 133, 122,0.5);">
 
                         <legend>Sign Your Information </legend>
                         <label>Yourname</label>
@@ -322,9 +505,9 @@
                         <label>"time</label>
                         <input  type="time"value="">
                         <label>Write Your Symptoms</label>
-                        <textarea rows="20"cols="40"readonly style="background-color: blanchedalmond;">Your Symptoms</textarea><br>
+                        <textarea rows="20"cols="40"readonly style="background-color: rgb(215, 213, 219);border-radius: 20px;border:5px aqua;">Your Symptoms</textarea><br>
                         <label>Time</label>
-                        <select>
+                        <select style="border-radius: 7px;background-color: peachpuff;">
                             <option>today</option>
                             <option>twomorow</option>
                             <option>after a week</option>
@@ -338,20 +521,34 @@
                 </form>
             </div>
             <br><br>
-            <div style="background-color: rgb(60, 60, 78);color: cornsilk;padding: 10px;">
-                <ul style="list-style: none;margin: 15px;"><h3> Important links:</h3>
+            <div style="background-color: rgb(6, 6, 70);color: rgb(229, 214, 153);padding: 10px;bottom: 0%;right: 0%;left: 0%;">
+                    <p style="color: rgb(204, 217, 235);">
+                        <i style="color: rgb(66, 127, 139);font-size: large;margin: 3px;" class="fas fa-phone-alt"></i> Phone us</p>
+                        
+                        
+                        <p style="color: rgb(44, 119, 112);text-align: left; border-radius: 5px;width: 150px;font-size: larger;background-color: lightyellow;">+9625679000867</p>
+                        <p style="color: lightyellow;"><i style="font-size: large;color: rgb(56, 151, 151);margin: 3px;" class="fas fa-map-marker-alt"></i>Address:Sohage 15 street </p>
+                        <p style="color: lightyellow;"><i style="font-size: large;color: rgb(5, 157, 177);margin: 3px;" class="fas fa-envelope"></i>E-mail:Info@gmail.com</p>
+
+
+
+                <p style="list-style: none;margin: 15px;"><h3> Important links:</h3>
+
                     <h4>
-                       <a href=""> <li style="margin: 5px;color: gainsboro;">About hospital</li></a>
-                        <a href=""><li style="margin: 5px;color: gainsboro;">Servier hospital</li></a>
-                        <a href=""><li style="margin: 5px;color: gainsboro;"> Images</li></a>
-                        <a href=""><li style="margin: 5px;color: gainsboro;">Contact Us</li></a>
+                       <a href=""> <p style="margin: 5px;color: gainsboro;">About hospital</p></a>
+                        <a href=""><p style="margin: 5px;color: gainsboro;">Servier hospital</p></a>
+                        <a href=""><p style="margin: 5px;color: gainsboro;"> Images</p></a>
+                        <a href=""><p style="margin: 5px;color: gainsboro;">Contact Us</p></a>
+                        
+                        <a href="https://www.linkedin.com"> <i style="font-size: large;color: mintcream;margin: 5px;"    class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com"><i style="font-size: large;color: mintcream;margin: 5px;"   class="fab fa-instagram"></i></a>
+                        
+                        <a href="https://www.telegram.com"><i style="font-size: large;color: mintcream;margin: 5px;"  class="fab fa-telegram-plane"></i></a>
                     </h4>
-                    <center>
-                       <em> <h4 style="color:forestgreen">This wibsite designed by &copy; fatma yousuf &reg;about hospital 2021</h4></em>
-        
-                    </center>
-                   
-                </ul>
+                </p>
+                       <em> <h4 style="color:rgb(123, 211, 238)">This wibsite designed by &copy; Fatma Yousuf Mohamed &reg; 2021</h4></em>
+                <p style="text-align: right;color: rgb(230, 249, 250);">2021 جميع الحقوق محفوظه للمستشفي </p>
+               
             </div>
             
         </div>
